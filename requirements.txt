@@ -1,0 +1,14 @@
+matplotlib
+opencv-python-headless
+opencv-contrib-python-headless
+streamlit
+cython
+tqdm
+pillow
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch===1.6.0+cpu
+torchvision===0.7.0+cpu
+fastai==1.0.61
+efficientnet_pytorch==0.6.3
+tensorboardX
+pycocotools-fix

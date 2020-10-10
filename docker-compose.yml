@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    app:
+        image: healthcare-toolkit
+        build:
+            dockerfile: ./Dockerfile
+            context: .
+        environment:
+            - PORT=${PORT}
+        ports:
+            - ${PORT}:${PORT}
